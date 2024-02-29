@@ -1,0 +1,6 @@
+<h1>{{ team.name }}</h1>
+<ul>
+{% for player in players %}
+    <li>{{ player.name }} ({{ player.number }})</li>
+{% endfor %}
+</ul>

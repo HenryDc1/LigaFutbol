@@ -1,0 +1,6 @@
+<h1>{{ match.home_team.name }} vs {{ match.away_team.name }}</h1>
+<ul>
+{% for goal in goals %}
+    <li>{{ goal.player.name }} scored a goal</li>
+{% endfor %}
+</ul>
